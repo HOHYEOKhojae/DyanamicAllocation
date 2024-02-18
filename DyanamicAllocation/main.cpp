@@ -1,5 +1,7 @@
 #include <iostream>
+#include "DyanamicAllocation.h"
 using namespace std;
+
 
 // Heap Memory
 // Make size of fluid array to heap memory
@@ -7,7 +9,7 @@ int main(int argc, const char * argv[]) {
     
     // Declare size and pointer to stack
     int size;
-    int* pArray;
+//    int* pArray;
     
     // Insert the size of array
     do {
@@ -18,8 +20,8 @@ int main(int argc, const char * argv[]) {
     } while (size <= 0);
     
     // Make array to heap
-    pArray =  new int[size];
-    // int* pArray = new int[size];
+//    pArray =  new int[size];
+     int* pArray = new int[size];
     
     // Insert the value to array
     for(int i = 0; i < size; i++)

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27C2D2312B81990100021AA6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C2D2302B81990100021AA6 /* main.cpp */; };
+		27C2D2392B81ED1D00021AA6 /* DynamicAllocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C2D2382B81ED1D00021AA6 /* DynamicAllocation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		27C2D22D2B81990100021AA6 /* DyanamicAllocation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DyanamicAllocation; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C2D2302B81990100021AA6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		27C2D2372B81EBEF00021AA6 /* DyanamicAllocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DyanamicAllocation.h; sourceTree = "<group>"; };
+		27C2D2382B81ED1D00021AA6 /* DynamicAllocation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicAllocation.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				27C2D2302B81990100021AA6 /* main.cpp */,
+				27C2D2372B81EBEF00021AA6 /* DyanamicAllocation.h */,
+				27C2D2382B81ED1D00021AA6 /* DynamicAllocation.cpp */,
 			);
 			path = DyanamicAllocation;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C2D2312B81990100021AA6 /* main.cpp in Sources */,
+				27C2D2392B81ED1D00021AA6 /* DynamicAllocation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
