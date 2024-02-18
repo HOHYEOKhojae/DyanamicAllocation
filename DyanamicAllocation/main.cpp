@@ -42,5 +42,6 @@ int main(int argc, const char * argv[]) {
         cout << "DELETE " << i << " : " << endl;
         cout << *(pArray + i) << "  ";
     }
+    
     return 0;
 }
